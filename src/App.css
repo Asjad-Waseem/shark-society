@@ -1,0 +1,1455 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 360px) {
+  .background {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    height: 7369px;
+    overflow: hidden;
+    z-index: 0;
+    zoom: 19%;
+  }
+}
+
+@media only screen and (min-width: 368px) {
+  .background {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    height: 7369px;
+    overflow: hidden;
+    z-index: 0;
+    zoom: 19%;
+  }
+}
+
+@media only screen and (min-width: 479px) {
+  .background {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    height: 7369px;
+    overflow: hidden;
+    z-index: 0;
+    zoom: 38%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .background {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    height: 7369px;
+    overflow: hidden;
+    z-index: 0;
+    /* zoom: 53%; */
+    zoom: 50.3%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .background {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    height: 7369px;
+    overflow: hidden;
+    z-index: 0;
+    zoom: 88%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .background {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    height: 7369px;
+    overflow: hidden;
+    z-index: 0;
+    zoom: 88%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .background {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    height: 7369px;
+    overflow: hidden;
+    z-index: 0;
+    zoom: 85%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .background {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    height: 7369px;
+    overflow: hidden;
+    z-index: 0;
+    zoom: 79.1%;
+  }
+}
+
+.Layer6 {
+  left: 0px;
+  top: 916px;
+  position: absolute;
+  width: 1920px;
+  height: 6401px;
+  z-index: 1;
+}
+
+.Layer18 {
+  left: 753px;
+  top: 67px;
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  z-index: 2;
+}
+
+.Layer13 {
+  left: 0px;
+  top: 1710px;
+  position: absolute;
+  width: 1920px;
+  height: 1790px;
+  z-index: 3;
+}
+
+.Layer13copy {
+  left: 0px;
+  top: 4229px;
+  position: absolute;
+  width: 1920px;
+  height: 1667px;
+  z-index: 4;
+}
+
+.Layer4 {
+  left: 856px;
+  top: 293px;
+  position: absolute;
+  width: 376px;
+  height: 356px;
+  z-index: 5;
+}
+
+.connect-metamask{
+  
+  top: 261px;
+  right: 189px;
+  position: absolute;
+  z-index: 5;
+
+  
+}
+.connect{
+  cursor: pointer;
+  color: white;
+  background-color: #004a63;
+  width: 257px;
+  height: 59px;
+  border: solid;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.minting-button{
+  top: 2346px;
+  left: 862px;
+  position: absolute;
+  z-index: 500;
+}
+.connect-minting{
+  cursor: pointer;
+  color: white;
+  background-color: #004a63;
+  width: 162px;
+  height: 59px;
+  border: solid;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.Layer5 {
+  left: 0px;
+  top: 447px;
+  position: absolute;
+  width: 1920px;
+  height: 578px;
+  z-index: 6;
+}
+
+.Layer3 {
+  left: 55px;
+  top: 57px;
+  position: absolute;
+  width: 186px;
+  height: 186px;
+  z-index: 7;
+}
+
+.VectorSmartObject {
+  left: 1482px;
+  top: 564px;
+  position: absolute;
+  width: 712px;
+  height: 248px;
+  z-index: 8;
+}
+
+.VectorSmartObject_0 {
+  left: 133px;
+  top: 649px;
+  position: absolute;
+  width: 274px;
+  height: 100px;
+  z-index: 9;
+}
+
+.WhatsAppImage2021091 {
+  left: 1209px;
+  top: 1690px;
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  z-index: 10;
+}
+
+.WhatsAppImage2021091_0 {
+  left: 271px;
+  top: 1217px;
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  z-index: 11;
+}
+
+.WhatsAppImage2021091_1 {
+  left: 1209px;
+  top: 1217px;
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  z-index: 12;
+}
+
+.WhatsAppImage2021091_2 {
+  left: 271px;
+  top: 1690px;
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  z-index: 13;
+}
+
+.WhatsAppImage2021091_3 {
+  left: 740px;
+  top: 1690px;
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  z-index: 14;
+}
+
+.WhatsAppImage2021091_4 {
+  left: 740px;
+  top: 1217px;
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  z-index: 15;
+}
+
+.WhatsAppImage2021091_5 {
+  left: 271px;
+  top: 1453px;
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  z-index: 16;
+}
+
+.RoundedRectangle1 {
+  left: 427px;
+  top: 1497px;
+  position: absolute;
+  width: 1089px;
+  height: 252px;
+  z-index: 17;
+}
+
+.WhatsAppImage2021091_6 {
+  left: 990px;
+  top: 1055px;
+  position: absolute;
+  width: 370px;
+  height: 344px;
+  z-index: 18;
+}
+
+.WhatsAppImage2021091_7 {
+  left: 1157px;
+  top: 1023px;
+  position: absolute;
+  width: 363px;
+  height: 376px;
+  z-index: 19;
+}
+
+.WhatsAppImage2021091_8 {
+  left: 629px;
+  top: 987px;
+  position: absolute;
+  width: 364px;
+  height: 410px;
+  z-index: 20;
+}
+
+.WhatsAppImage2021091_9 {
+  left: 425px;
+  top: 1055px;
+  position: absolute;
+  width: 353px;
+  height: 341px;
+  z-index: 21;
+}
+
+.Layer8 {
+  left: 436px;
+  top: 1370px;
+  position: absolute;
+  width: 1075px;
+  height: 123px;
+  z-index: 22;
+}
+
+.VectorSmartObject_1 {
+  left: 407px;
+  top: 1380px;
+  position: absolute;
+  width: 1115px;
+  height: 131px;
+  z-index: 23;
+}
+
+.VectorSmartObject_2 {
+  left: 753px;
+  top: 688px;
+  position: absolute;
+  width: 485px;
+  height: 138px;
+  z-index: 24;
+}
+
+.LogoSharkSociety {
+  left: 362px;
+  top: 799px;
+  position: absolute;
+  width: 1005px;
+  height: 252px;
+  z-index: 25;
+}
+
+.VectorSmartObject_3 {
+  left: 332px;
+  top: 1275px;
+  position: absolute;
+  width: 203px;
+  height: 203px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop {
+  left: 1393px;
+  top: 1227px;
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_0 {
+  left: 1511px;
+  top: 1036px;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_1 {
+  left: -97px;
+  top: 5460px;
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_2 {
+  left: 391px;
+  top: 4719px;
+  position: absolute;
+  width: 174px;
+  height: 174px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_3 {
+  left: 21px;
+  top: 5269px;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_4 {
+  left: 1094px;
+  top: 6093px;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_5 {
+  left: 763px;
+  top: 1786px;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_6 {
+  left: 1108px;
+  top: 1503px;
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_7 {
+  left: 1651px;
+  top: 1294px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_8 {
+  left: 763px;
+  top: 1933px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  z-index: 20;
+}
+.scrol-card{
+  position: relative;
+  width: 369px;
+  height: 423px;
+  margin-right: 40px;
+}
+.scrol-image{
+  z-index: 10000000;
+    position: absolute;
+    top: 21px;
+    left: 14px;
+}
+.scrol-image-selected{
+  z-index: 10000000;
+  position: absolute;
+  top: 33px;
+  left: 28px;
+}
+.scrol-title{
+  color: white;
+  justify-content: center;
+  font-size: 29px;
+  font-weight: 900;
+  font-family: 'Lilita One', cursive;
+  letter-spacing: 2px;
+  margin-left: 26px;
+}
+.VectorSmartObjectcop_9 {
+  left: 1534px;
+  top: 2327px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_10 {
+  left: 407px;
+  top: 1107px;
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_11 {
+  left: 948px;
+  top: 978px;
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  z-index: 39;
+}
+
+.VectorSmartObjectcop_12 {
+  left: 942px;
+  top: 877px;
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_13 {
+  left: 986px;
+  top: 813px;
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  z-index: 20;
+}
+
+.Layer12 {
+  left: 144px;
+  top: 2475px;
+    position: absolute;
+    width: 1620px;
+    height: 385px;
+    z-index: 42;
+}
+
+.Layer12copy {
+  left: 551px;
+  top: 2380px;
+  position: absolute;
+  width: 369px;
+  height: 385px;
+  z-index: 43;
+}
+
+.Layer12copy2 {
+  left: 960px;
+  top: 2380px;
+  position: absolute;
+  width: 369px;
+  height: 385px;
+  z-index: 44;
+}
+
+.Layer12copy3 {
+  left: 1374px;
+  top: 2380px;
+  position: absolute;
+  width: 369px;
+  height: 385px;
+  z-index: 45;
+}
+
+.Population2101 {
+  left: 156px;
+  top: 2823px;
+  position: absolute;
+  width: 234px;
+  height: 31px;
+  z-index: 46;
+}
+
+.layer_10 {
+  left: 209px;
+  top: 3482px;
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  z-index: 47;
+}
+
+.layer_30 {
+  left: 617px;
+  top: 3482px;
+  position: absolute;
+  width: 64px;
+  height: 25px;
+  z-index: 48;
+}
+
+.layer_50 {
+  left: 1073px;
+  top: 3482px;
+  position: absolute;
+  width: 63px;
+  height: 25px;
+  z-index: 49;
+}
+
+.layer_80 {
+  left: 1566px;
+  top: 3482px;
+  position: absolute;
+  width: 64px;
+  height: 25px;
+  z-index: 50;
+}
+
+.NormalSpecies {
+  left: 568px;
+  top: 2823px;
+  position: absolute;
+  width: 217px;
+  height: 31px;
+  z-index: 51;
+}
+
+.CommondSpecies {
+  left: 979px;
+  top: 2823px;
+  position: absolute;
+  width: 255px;
+  height: 31px;
+  z-index: 52;
+}
+
+.RareSpiecies {
+  left: 1394px;
+  top: 2823px;
+  position: absolute;
+  width: 187px;
+  height: 31px;
+  z-index: 53;
+}
+
+.VectorSmartObjectcop_14 {
+  left: 1044px;
+  top: 971px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_15 {
+  left: 629px;
+  top: 1003px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_16 {
+  left: 547px;
+  top: 1243px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_17 {
+  left: 1165px;
+  top: 1059px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_18 {
+  left: 942px;
+  top: 1218px;
+  position: absolute;
+  width: 178px;
+  height: 178px;
+  z-index: 20;
+}
+
+.RoundedRectangle3 {
+  left: 133px;
+  top: 2377px;
+  position: absolute;
+  width: 393px;
+  height: 414px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_19 {
+  left: 943px;
+  top: 1162px;
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  z-index: 60;
+}
+
+.VectorSmartObjectcop_20 {
+  left: 1341px;
+  top: 1060px;
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_21 {
+  left: 684px;
+  top: 1314px;
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_22 {
+  left: 682px;
+  top: 896px;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  z-index: 20;
+}
+
+.VectorSmartObject_4 {
+  left: 433px;
+  top: 1461px;
+  position: absolute;
+  width: 1078px;
+  height: 123px;
+  z-index: 64;
+}
+
+.WhatsAppImage2021091_10 {
+  left: 1291px;
+  top: 1636px;
+  position: absolute;
+  width: 534px;
+  height: 534px;
+  z-index: 65;
+}
+
+.WhatsAppImage2021091_11 {
+  left: 1391px;
+  top: 2404px;
+  position: absolute;
+  width: 338px;
+  height: 339px;
+  z-index: 66;
+}
+
+.WhatsAppImage2021091_12 {
+  left: 1391px;
+  top: 2404px;
+  position: absolute;
+  width: 338px;
+  height: 339px;
+  z-index: 67;
+}
+
+.WhatsAppImage2021091_13 {
+  left: 807px;
+  top: 1856px;
+  position: absolute;
+  width: 271px;
+  height: 259px;
+  z-index: 68;
+}
+
+.WhoAreWeSharkSociety {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  font-size: 44px;
+  font-weight: 900;
+  left: 521px;
+  top: 1510px;
+  position: absolute;
+  width: 862px;
+  height: 224px;
+  z-index: 69;
+  font-family: 'Lilita One', cursive;
+}
+
+.whatweare {
+  justify-content: center;
+  display: flex;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 29px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.SharkSocietyisanuniq {
+  color: white;
+  justify-content: center;
+  font-size: 44px;
+  font-weight: 900;
+  font-family: 'Lilita One', cursive;
+  letter-spacing: 2px;
+  left: 499px;
+  top: 3932px;
+  position: absolute;
+  width: 862px;
+  height: 138px;
+  z-index: 70;
+}
+
+.StartYourCollection {
+  color: white;
+    justify-content: center;
+    font-size: 44px;
+    font-weight: 900;
+    font-family: 'Lilita One', cursive;
+    letter-spacing: 2px;
+  left: 731px;
+  top: 2237px;
+  position: absolute;
+  width: 439px;
+  height: 37px;
+  z-index: 71;
+  
+}
+
+.AboutUsFNQRoadMap {
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-size: 29px;
+  font-weight: 900;
+  font-family: 'Lilita One', cursive;
+  letter-spacing: 2px;
+  left: 1369px;
+  top: 92px;
+  position: absolute;
+  width: 476px;
+  height: 29px;
+  z-index: 72;
+}
+
+.Layer17 {
+  left: 1520px;
+  top: 67px;
+  position: absolute;
+  width: 3px;
+  height: 75px;
+  z-index: 73;
+}
+
+.Layer17copy {
+  left: 1676px;
+  top: 67px;
+  position: absolute;
+  width: 3px;
+  height: 75px;
+  z-index: 74;
+}
+
+.TheInitialRoadMap {
+  color: white;
+  justify-content: center;
+  font-size: 44px;
+  font-weight: 900;
+  font-family: 'Lilita One', cursive;
+  letter-spacing: 2px;
+  left: 833px;
+  top: 3133px;
+  position: absolute;
+  width: 473px;
+  height: 50px;
+  z-index: 75;
+}
+
+.VectorSmartObject_5 {
+  left: 850px;
+  top: 402px;
+  position: absolute;
+  width: 121px;
+  height: 452px;
+  z-index: 76;
+}
+
+.GETREADYTOBEEATEN {
+  left: 358px;
+  top: 4857px;
+  position: absolute;
+  width: 1128px;
+  height: 72px;
+  z-index: 77;
+}
+
+.GETREADYTOBEEATEN_0 {
+  color: white;
+  justify-content: center;
+  font-size: 88px;
+  font-weight: 900;
+  font-family: 'Lilita One', cursive;
+  letter-spacing: 2px;
+  left: 430px;
+  top: 4827px;
+  position: absolute;
+  width: 1128px;
+  height: 72px;
+  z-index: 78;
+}
+
+.FAQHowmuchdoeseachSh {
+  color: white;
+  justify-content: center;
+  font-size: 44px;
+  font-weight: 900;
+  font-family: 'Lilita One', cursive;
+  letter-spacing: 2px;
+  /* left: 142px; */
+  top: 5268px;
+  position: absolute;
+  width: 100%;
+  height: 980px;
+  z-index: 79;
+}
+.FAQ{
+  font-size: 64px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.question{
+  text-align: center;
+  font-size: 30px;
+    margin-top: 30px;
+}
+.answer{
+  text-align: center;
+  font-size: 24px;
+  color: #2da5b0;
+}
+.video-container{
+  width: 257px;
+  border-radius: 9px;
+}
+.TheSharkTeam {
+  color: white;
+  justify-content: center;
+  font-size: 44px;
+  font-weight: 900;
+  font-family: 'Lilita One', cursive;
+  letter-spacing: 2px;
+  left: 882px;
+  top: 3823px;
+  position: absolute;
+  width: 328px;
+  height: 37px;
+  z-index: 80;
+}
+
+.bubble {
+  animation-name: example;
+  animation-duration: 40s;
+}
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+.SmartContract {
+  color: white;
+  justify-content: center;
+  font-size: 44px;
+  font-weight: 900;
+  font-family: 'Lilita One', cursive;
+  letter-spacing: 2px;
+  left: 783px;
+  top: 6480px;
+  position: absolute;
+  width: 324px;
+  height: 37px;
+  z-index: 81;
+}
+
+.Layer15 {
+  left: 234px;
+  top: 3373px;
+  position: absolute;
+  width: 1434px;
+  height: 4px;
+  z-index: 82;
+}
+
+.Layer15copy {
+  left: 89px;
+  top: 5137px;
+  position: absolute;
+  width: 1767px;
+  height: 2px;
+  z-index: 83;
+}
+
+.VectorSmartObject_6 {
+  left: 195px;
+  top: 3341px;
+  position: absolute;
+  width: 144px;
+  height: 86px;
+  z-index: 84;
+}
+
+.VectorSmartObject_7 {
+  left: 535px;
+  top: 3331px;
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  z-index: 85;
+}
+
+.VectorSmartObject_8 {
+  left: 120px;
+  top: 6680px;
+  position: absolute;
+  width: 287px;
+  height: 163px;
+  z-index: 86;
+}
+
+.VectorSmartObject_9 {
+  left: 1432px;
+  top: 3292px;
+  position: absolute;
+  width: 340px;
+  height: 154px;
+  z-index: 87;
+}
+
+.VectorSmartObjectcop_23 {
+  left: 944px;
+  top: 3331px;
+  position: absolute;
+  width: 299px;
+  height: 114px;
+  z-index: 90;
+}
+
+.Layer11 {
+  left: 155px;
+  top: 2102px;
+  position: absolute;
+  width: 1549px;
+  height: 3px;
+  z-index: 89;
+}
+
+.Layer11copy {
+  left: 51px;
+  top: 5524px;
+  position: absolute;
+  width: 1751px;
+  height: 3px;
+  z-index: 90;
+}
+
+.Layer11copy2 {
+  left: 51px;
+  top: 5695px;
+  position: absolute;
+  width: 1751px;
+  height: 3px;
+  z-index: 91;
+}
+
+.Layer11copy3 {
+  left: 51px;
+  top: 5866px;
+  position: absolute;
+  width: 1751px;
+  height: 3px;
+  z-index: 92;
+}
+
+.Layer11copy4 {
+  left: 51px;
+  top: 6106px;
+  position: absolute;
+  width: 1751px;
+  height: 3px;
+  z-index: 93;
+}
+
+.WhatsAppImage2021091_14 {
+  left: 976px;
+  top: 2404px;
+  position: absolute;
+  width: 339px;
+  height: 339px;
+  z-index: 94;
+}
+
+.WhatsAppImage2021091_15 {
+  left: 158px;
+  top: 2404px;
+  position: absolute;
+  width: 339px;
+  height: 339px;
+  z-index: 95;
+}
+
+.RoundedRectangle2 {
+  left: 1301px;
+  top: 1658px;
+  position: absolute;
+  width: 513px;
+  height: 513px;
+  z-index: 96;
+}
+
+.WhatsAppImage2021091_16 {
+  left: 567px;
+  top: 2404px;
+  position: absolute;
+  width: 339px;
+  height: 339px;
+  z-index: 97;
+}
+
+.WhatsAppImage2021091_17 {
+  left: 1391px;
+  top: 4238px;
+  position: absolute;
+  width: 338px;
+  height: 339px;
+  z-index: 98;
+}
+
+.WhatsAppImage2021091_18 {
+  left: 976px;
+  top: 4238px;
+  position: absolute;
+  width: 339px;
+  height: 339px;
+  z-index: 99;
+}
+
+.WhatsAppImage2021091_19 {
+  left: 158px;
+    top: 4238px;
+    position: absolute;
+    width: 1600px;
+    height: 339px;
+    z-index: 100;
+}
+
+.WhatsAppImage2021091_20 {
+  left: 567px;
+  top: 4238px;
+  position: absolute;
+  width: 339px;
+  height: 339px;
+  z-index: 101;
+}
+
+.VectorSmartObjectcop_24 {
+  left: 103px;
+  top: 2349px;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_25 {
+  left: 911px;
+  top: 2684px;
+  position: absolute;
+  width: 139px;
+  height: 139px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_26 {
+  left: 734px;
+  top: 3751px;
+  position: absolute;
+  width: 139px;
+  height: 139px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_27 {
+  left: 1557px;
+  top: 4517px;
+  position: absolute;
+  width: 214px;
+  height: 215px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_28 {
+  left: 1648px;
+  top: 5218px;
+  position: absolute;
+  width: 78px;
+  height: 79px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_29 {
+  left: 1036px;
+  top: 4820px;
+  position: absolute;
+  width: 52px;
+  height: 53px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_30 {
+  left: 977px;
+  top: 4175px;
+  position: absolute;
+  width: 52px;
+  height: 53px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_31 {
+  left: 1171px;
+  top: 3892px;
+  position: absolute;
+  width: 52px;
+  height: 53px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_32 {
+  left: 1150px;
+  top: 3044px;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_33 {
+  left: 701px;
+  top: 3016px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  z-index: 20;
+}
+
+.VectorSmartObjectcop_34 {
+  left: 1586px;
+  top: 2327px;
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  z-index: 20;
+}
+
+.VectorSmartObject_10 {
+  left: -12px;
+  top: 6542px;
+  position: absolute;
+  width: 2790px;
+  height: 634px;
+  z-index: 113;
+}
+
+.VectorSmartObject_11 {
+  left: 822px;
+  top: 166px;
+  position: absolute;
+  width: 422px;
+  height: 123px;
+  z-index: 114;
+}
+
+.ScreenShot20210919at {
+  left: 0px;
+  top: 7194px;
+  position: absolute;
+  width: 1920px;
+  height: 176px;
+  z-index: 115;
+}
+
+.Layer16 {
+  left: 1366px;
+  top: 7238px;
+  position: absolute;
+  width: 296px;
+  height: 35px;
+  z-index: 116;
+}
+
+.SHARKLAB2021 {
+  right: 285px;
+  top: 7255px;
+  position: absolute;
+  width: 174px;
+  height: 17px;
+  z-index: 117;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MI{
+  cursor: pointer;
+  left: 285px;
+  top: 7242px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  z-index: 115;
+}
+.MI2{
+  cursor: pointer;
+    left: 442px;
+    top: 7242px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    z-index: 115;
+}
+.twitter{
+  cursor: pointer;
+  left: 361px;
+  top: 7242px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  z-index: 115;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+
+  /* height: 10px !important; */
+
+  scrollbar-width: 10px !important;
+
+}
+
+.react-horizontal-scrolling-menu--item {
+
+  /* height: 10px !important; */
+
+}
+
+.react-horizontal-scrolling-menu--separator {
+
+  /* height: 10px !important; */
+
+}
+
+/* ::-webkit-scrollbar {
+  height: 30px !important;
+} */
+
+/* .react-horizontal-scrolling-menu--scroll-container {
+
+  overflow-x: scroll !important;
+  scrollbar-width: none !important;
+
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+
+  overflow-x: scroll !important;
+  scrollbar-width: none !important;
+  overflow-y: hidden !important;
+
+} */
+
+.WhatsAppImage2021091_19 {
+
+  /* overflow-y: hidden !important; */
+  /* overflow-x: scroll !important; */
+  scrollbar-width: none !important;
+
+}

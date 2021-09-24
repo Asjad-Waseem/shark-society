@@ -1,0 +1,385 @@
+import './App.css';
+import { Col, Container, Row , Image } from 'react-bootstrap';
+import  logo from './assets/images/Logo_Shark_Society.png'
+import birds from './assets/images/Vector_Smart Object_6.png'
+import boat from './assets/images/Layer_4.png'
+import waves from './assets/images/Layer_5.png'
+import group from './assets/images/Group_1_1.png'
+import sharkOne from './assets/images/shark_image_one.png'
+import LayerMain from './assets/images/Layer_6.png'
+import LayerWhite from './assets/images/Layer_11_copy2.png'
+import ImageOne from './assets/images/imageOne.png'
+import ImageTwo from './assets/images/ImageTwo.png'
+import ImageThree from './assets/images/ImageThree.png'
+import ImageFour from './assets/images/ImageFour.png'
+import SharkOne from './assets/images/SharkOne.png'
+import SharkTwo from './assets/images/SharkTwo.png'
+import SharkThree from './assets/images/SharkThree.png'
+import SharkFour from './assets/images/SharkFour.png'
+import Whitney from './assets/images/Layer_15.png'
+
+
+
+function App() {
+  return (
+    <div className="landing-page">
+      <Container>
+        <Row>
+          <Col className="main-logo">
+          <Image src={logo} width="180px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="birds">
+          <Image src={birds} width="350px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="boat">
+          <Image src={boat} width="350px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="waves">
+          <Image src={waves} width="100%"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="group">
+          <Image src={group} width="802px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="main-text">
+          Who Are We?
+          </Col>
+        </Row>
+        <Row>
+          <Col className="main-text-one">
+          <p>Shark Society is a unique one of a kind Non-Fungible Token</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="shark-image">
+          <Image src={sharkOne} width="120px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="shark-team-text-main">
+          Start Your Collection
+          </Col>
+        </Row>
+        <Row>
+          <Col className="layer-image">
+          <Image src={LayerMain} width="100%"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="layer-white">
+          <Image src={LayerWhite} width="100%"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="image-one">
+          <Image src={ImageOne} width="160px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="image-two">
+          <Image src={ImageTwo} width="160px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="image-three">
+          <Image src={ImageThree} width="160px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="image-four">
+          <Image src={ImageFour} width="160px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="road-map">
+          Initial Road Map
+          </Col>
+        </Row>
+        <Row>
+          <Col className="shark-one">
+          <Image src={SharkOne} width="70px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="shark-two">
+          <Image src={SharkTwo} width="100px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="shark-three">
+          <Image src={SharkThree} width="130px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="shark-four">
+          <Image src={SharkFour} width="140px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="shark-team-text">
+          the shark team
+          </Col>
+        </Row>
+        <Row>
+          <Col className="shark-team">
+          the shark team
+          </Col>
+        </Row>
+        <Row>
+          <Col className="image-one" style={{top:"2000px"}}>
+          <Image src={ImageOne} width="160px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="image-two" style={{top:"2000px"}}>
+          <Image src={ImageTwo} width="160px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="image-three" style={{top:"2000px"}}>
+          <Image src={ImageThree} width="160px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="image-four" style={{top:"2000px"}}>
+          <Image src={ImageFour} width="160px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="get-ready" style={{top:"2200px"}}>
+          "Get Ready To Be Eaten"
+          </Col>
+        </Row>
+        <Row>
+          <Col className="white-line" style={{top:"2400px"}}>
+          <Image src={Whitney} width="160px"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="FAQ" style={{top:"2600px"}}>
+          FAQ
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+}
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-logo {
+  position: absolute;
+  top: 47px;
+  left: 61px;
+}
+
+.birds {
+  position: absolute;
+  left: 48%;
+  top: 195px;
+}
+
+.boat {
+  position: absolute;
+  left: 48%;
+  top: 287px;
+}
+.waves{
+  position: absolute;
+  top: 420px;
+}
+.group{
+  z-index: 1;
+    position: absolute;
+    left: -5%;
+    top: 600px;
+}
+.shark-image{
+  position: relative;
+    top: 896px;
+    left: 43%;
+    z-index: 1;
+}
+.layer-image{
+  position: absolute;
+    top: 773px;
+}
+.main-text{
+  position: absolute;
+    left: 42%;
+    top: 747px;
+    z-index: 1;
+    color: white;
+    font-weight: 900;
+    font-size: 23px;
+}
+.main-text-one{
+  position: absolute;
+    top: 769px;
+    z-index: 1;
+    left: 36%;
+    color: white;
+}
+.image-one{
+  position: absolute;
+  top: 1144px;
+  left: 500px;
+  z-index: 100;
+}
+.image-two{
+  position: absolute;
+  top: 1144px;
+  left: 688px;
+  z-index: 100;
+}
+.image-three{
+  position: absolute;
+  top: 1144px;
+  left: 876px;
+  z-index: 100;
+}
+.image-four{
+  position: absolute;
+  top: 1144px;
+  left: 1069px;
+  z-index: 100;
+}
+.white_line{
+  position: absolute;
+    top: 1591px;
+}
+.shark-one{
+  position: absolute;
+    top: 1584px;
+    left: 27%;
+}
+.shark-two{
+  position: absolute;
+    top: 1583px;
+    left: 36%;
+}
+.shark-three{
+  position: absolute;
+  top: 1584px;
+  left: 47%;
+}
+.shark-four{
+  position: absolute;
+    top: 1577px;
+    left: 60%;
+}
+.road-map{
+  position: absolute;
+    top: 1473px;
+    z-index: 1;
+    left: 39%;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+.shark-team-text{
+  position: absolute;
+  top: 1800px;
+  left: 44%;
+}
+.shark-team{
+  position: absolute;
+  top: 1871px;
+  left: 44%;
+}
+.shark-team-text-main{
+  position: absolute;
+  top: 1051px;
+  left: 44%;
+  z-index: 1;
+}
+.get-ready{
+  position: absolute;
+  top: 1051px;
+  left: 44%;
+  z-index: 1;
+}
+.white-line{
+  position: absolute;
+  top: 1051px;
+  left: 44%;
+  z-index: 1;
+}
+.FAQ{
+  position: absolute;
+  top: 1051px;
+  left: 44%;
+  z-index: 1;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
